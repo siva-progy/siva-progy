@@ -29,15 +29,7 @@
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
-### `$ whoami`
-
-I'm a **fresher** getting started in **data — with an eye on banking, finance, and markets**. I like the idea of numbers that move: stock prices, portfolios, trading data. Right now I'm still building my foundations in Python, SQL, and statistics, and figuring out exactly where I fit — data analytics, data science, or something closer to the trading desk. This profile is a work in progress, the same way I am.
-
-- 🔭 Currently learning: Python for data analysis, SQL, and the basics of financial datasets
-- 🌱 Interested in: stock market data, portfolio analytics, and eventually algorithmic trading
-- 🎯 Goal: land my first role in a data team at a bank, fintech, or trading firm
-- 💬 Ask me about: anything I'm currently learning — I'm probably a few chapters ahead of you in the same book
-- 📫 Reach me: **sivav6064@gmail.com**
+<img src="assets/about.svg" alt="about me" width="100%" />
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
