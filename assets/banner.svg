@@ -1,0 +1,75 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0d1420"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fd1ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4fd1ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4fd1ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="roundedFrame">
+      <rect x="0" y="0" width="1200" height="300" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+    <g stroke="#1c2531" stroke-width="1">
+      <line x1="0" y1="90" x2="1200" y2="90"/>
+      <line x1="0" y1="150" x2="1200" y2="150"/>
+      <line x1="0" y1="210" x2="1200" y2="210"/>
+      <line x1="0" y1="270" x2="1200" y2="270"/>
+      <line x1="200" y1="46" x2="200" y2="300"/>
+      <line x1="400" y1="46" x2="400" y2="300"/>
+      <line x1="600" y1="46" x2="600" y2="300"/>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="46" fill="#10161f"/>
+    <line x1="0" y1="46" x2="1200" y2="46" stroke="#1c2531" stroke-width="1"/>
+    <circle cx="26" cy="23" r="6" fill="#ff5c73"/>
+    <circle cx="48" cy="23" r="6" fill="#ffd166"/>
+    <circle cx="70" cy="23" r="6" fill="#2ee6a6"/>
+    <text x="96" y="28" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14" fill="#7d8894">siva-progy — ~/market-data — zsh</text>
+
+    <g font-family="'JetBrains Mono',monospace">
+      <g stroke="#3a4552" stroke-width="2">
+        <line x1="60"  y1="70"  x2="60"  y2="260"/>
+        <line x1="110" y1="70"  x2="110" y2="260"/>
+        <line x1="160" y1="70"  x2="160" y2="260"/>
+        <line x1="210" y1="70"  x2="210" y2="260"/>
+        <line x1="260" y1="70"  x2="260" y2="260"/>
+        <line x1="310" y1="70"  x2="310" y2="260"/>
+        <line x1="360" y1="70"  x2="360" y2="260"/>
+      </g>
+      <rect x="50"  width="20" fill="#ff5c73"><animate attributeName="y" values="180;150;180" dur="3.2s" repeatCount="indefinite"/><animate attributeName="height" values="60;95;60" dur="3.2s" repeatCount="indefinite"/></rect>
+      <rect x="100" width="20" fill="#2ee6a6"><animate attributeName="y" values="140;110;140" dur="3.6s" repeatCount="indefinite"/><animate attributeName="height" values="90;125;90" dur="3.6s" repeatCount="indefinite"/></rect>
+      <rect x="150" width="20" fill="#2ee6a6"><animate attributeName="y" values="160;130;160" dur="2.8s" repeatCount="indefinite"/><animate attributeName="height" values="70;105;70" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="200" width="20" fill="#ff5c73"><animate attributeName="y" values="120;150;120" dur="3.4s" repeatCount="indefinite"/><animate attributeName="height" values="110;80;110" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="250" width="20" fill="#2ee6a6"><animate attributeName="y" values="150;100;150" dur="3s"   repeatCount="indefinite"/><animate attributeName="height" values="80;135;80" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="300" width="20" fill="#2ee6a6"><animate attributeName="y" values="130;95;130"  dur="3.8s" repeatCount="indefinite"/><animate attributeName="height" values="100;140;100" dur="3.8s" repeatCount="indefinite"/></rect>
+      <rect x="350" width="20" fill="#ff5c73"><animate attributeName="y" values="170;140;170" dur="2.6s" repeatCount="indefinite"/><animate attributeName="height" values="65;95;65" dur="2.6s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <text x="470" y="140" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="46" font-weight="700" fill="#e6edf3">
+      SIVA V
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="470" y="172" font-family="'JetBrains Mono',monospace" font-size="17" fill="#4fd1ff">
+      fresher &#8226; data &amp; analytics &#8226; curious about markets
+      <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.3s" fill="freeze"/>
+    </text>
+    <text x="470" y="202" font-family="'JetBrains Mono',monospace" font-size="14" fill="#7d8894">
+      $ status --&gt; learning in public, building in public
+      <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.6s" fill="freeze"/>
+    </text>
+
+    <rect x="-200" y="0" width="200" height="300" fill="url(#scanGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 1400 0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#1c2531" stroke-width="1"/>
+</svg>
