@@ -54,7 +54,7 @@
     </g>
 
     <text x="470" y="140" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="46" font-weight="700" fill="#e6edf3">
-      SIVA V
+      SIVA SUBURAMANIYAM V
       <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
     </text>
     <text x="470" y="172" font-family="'JetBrains Mono',monospace" font-size="17" fill="#4fd1ff">
