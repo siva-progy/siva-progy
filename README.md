@@ -1,16 +1,154 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**siva-progy/siva-progy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="assets/banner.svg" alt="Siva V banner" width="100%" />
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=800&color=4FD1FF&center=true&vCenter=true&width=700&lines=Fresher+%7C+Data+%26+Analytics+Enthusiast;Curious+about+markets%2C+stocks+%26+trading;Learning+in+public+%E2%80%94+building+in+public" alt="typing intro" />
+
+<br/><br/>
+
+<img src="assets/ticker.svg" alt="skills ticker" width="100%" />
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/siva-suburamaniyam">
+  <img src="https://img.shields.io/badge/LinkedIn-10161F?style=for-the-badge&logo=linkedin&logoColor=4FD1FF" alt="LinkedIn"/>
+</a>
+<a href="mailto:sivav6064@gmail.com">
+  <img src="https://img.shields.io/badge/Email-10161F?style=for-the-badge&logo=gmail&logoColor=FF5C73" alt="Email"/>
+</a>
+<a href="https://siva-v.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-10161F?style=for-the-badge&logo=vercel&logoColor=2EE6A6" alt="Portfolio"/>
+</a>
+<a href="https://github.com/siva-progy">
+  <img src="https://img.shields.io/badge/GitHub-10161F?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub"/>
+</a>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+### `$ whoami`
+
+I'm a **fresher** getting started in **data — with an eye on banking, finance, and markets**. I like the idea of numbers that move: stock prices, portfolios, trading data. Right now I'm still building my foundations in Python, SQL, and statistics, and figuring out exactly where I fit — data analytics, data science, or something closer to the trading desk. This profile is a work in progress, the same way I am.
+
+- 🔭 Currently learning: Python for data analysis, SQL, and the basics of financial datasets
+- 🌱 Interested in: stock market data, portfolio analytics, and eventually algorithmic trading
+- 🎯 Goal: land my first role in a data team at a bank, fintech, or trading firm
+- 💬 Ask me about: anything I'm currently learning — I'm probably a few chapters ahead of you in the same book
+- 📫 Reach me: **sivav6064@gmail.com**
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+### `$ cat tech-stack.txt`
+
+> Everything below is what I'm learning or have touched so far — trim this down to what's actually true for you as you go.
+
+**Languages & Querying**
+
+<img src="https://img.shields.io/badge/Python-10161F?style=flat-square&logo=python&logoColor=2EE6A6"/>
+<img src="https://img.shields.io/badge/SQL-10161F?style=flat-square&logo=postgresql&logoColor=4FD1FF"/>
+<img src="https://img.shields.io/badge/R-10161F?style=flat-square&logo=r&logoColor=2EE6A6"/>
+
+**Data & Analysis**
+
+<img src="https://img.shields.io/badge/Pandas-10161F?style=flat-square&logo=pandas&logoColor=2EE6A6"/>
+<img src="https://img.shields.io/badge/NumPy-10161F?style=flat-square&logo=numpy&logoColor=4FD1FF"/>
+<img src="https://img.shields.io/badge/scikit--learn-10161F?style=flat-square&logo=scikitlearn&logoColor=2EE6A6"/>
+<img src="https://img.shields.io/badge/Statistics-10161F?style=flat-square&logo=googleanalytics&logoColor=4FD1FF"/>
+
+**Visualization & Reporting**
+
+<img src="https://img.shields.io/badge/Excel-10161F?style=flat-square&logo=microsoftexcel&logoColor=2EE6A6"/>
+<img src="https://img.shields.io/badge/Power%20BI-10161F?style=flat-square&logo=powerbi&logoColor=4FD1FF"/>
+<img src="https://img.shields.io/badge/Tableau-10161F?style=flat-square&logo=tableau&logoColor=FF5C73"/>
+
+**Finance & Market Data**
+
+<img src="https://img.shields.io/badge/Yahoo%20Finance%20API-10161F?style=flat-square&logo=yahoo&logoColor=4FD1FF"/>
+<img src="https://img.shields.io/badge/Excel%20Financial%20Modeling-10161F?style=flat-square&logo=microsoftexcel&logoColor=2EE6A6"/>
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+### `$ ls featured-projects/`
+
+> Placeholders below — swap in the real repo link, description, and a cover image once each project is done.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**📈 01 — Stock Price Predictor**
+*status: not started*
+
+A model that predicts short-term stock price movement from historical data. Will cover data collection, feature engineering, and a basic ML model.
+
+`Python` `pandas` `scikit-learn`
+
+[repo link →](#)
+
+</td>
+<td width="33%" valign="top">
+
+**📊 02 — Market Dashboard**
+*status: not started*
+
+An interactive dashboard tracking a small portfolio or index — prices, returns, and simple risk metrics, built for quick daily reading.
+
+`Power BI` / `Tableau` `SQL`
+
+[repo link →](#)
+
+</td>
+<td width="33%" valign="top">
+
+**🤖 03 — Trading Strategy Backtester**
+*status: not started*
+
+A simple backtesting tool to test a basic trading rule (e.g. moving average crossover) against historical price data.
+
+`Python` `pandas` `matplotlib`
+
+[repo link →](#)
+
+</td>
+</tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+### `$ github-stats --live`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=siva-progy&show_icons=true&hide_border=true&bg_color=10161F&title_color=4FD1FF&icon_color=2EE6A6&text_color=E6EDF3&ring_color=2EE6A6" alt="GitHub stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siva-progy&layout=compact&hide_border=true&bg_color=10161F&title_color=4FD1FF&text_color=E6EDF3" alt="Top languages" height="165"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=siva-progy&hide_border=true&background=10161F&ring=2EE6A6&fire=FF5C73&currStreakLabel=4FD1FF&sideNums=E6EDF3&sideLabels=7D8894&dates=7D8894" alt="GitHub streak"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=siva-progy&theme=algolia&no-frame=true&margin-w=8&row=1&column=6" alt="trophies"/>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+### `$ tail -f contribution-log.svg`
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/siva-progy/siva-progy/output/snake.svg" alt="contribution snake" width="100%"/>
+</div>
+
+<img src="assets/divider.svg" width="100%" alt="divider"/>
+
+<div align="center">
+
+*"The market rewards patience more than genius — I'm hoping the same is true for learning to code."*
+
+<img src="https://komarev.com/ghpvc/?username=siva-progy&style=for-the-badge&color=2ee6a6&label=PROFILE+VIEWS" alt="profile views"/>
+
+</div>
