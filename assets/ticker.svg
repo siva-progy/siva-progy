@@ -1,0 +1,40 @@
+<svg width="1200" height="56" viewBox="0 0 1200 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="tickerClip">
+      <rect x="0" y="0" width="1200" height="56" rx="10"/>
+    </clipPath>
+  </defs>
+  <rect width="1200" height="56" rx="10" fill="#10161f" stroke="#1c2531"/>
+  <g clip-path="url(#tickerClip)">
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="16" font-weight="600">
+      <g>
+        <text x="0" y="34" fill="#e6edf3">
+          <tspan fill="#2ee6a6">&#9650;</tspan> PYTHON
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> SQL
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> PANDAS
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> EXCEL
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> POWER BI
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> STATISTICS
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> SCIKIT-LEARN
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> R
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> TABLEAU
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> MARKET DATA
+        </text>
+        <text x="900" y="34" fill="#e6edf3">
+          <tspan fill="#2ee6a6">&#9650;</tspan> PYTHON
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> SQL
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> PANDAS
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> EXCEL
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> POWER BI
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> STATISTICS
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> SCIKIT-LEARN
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> R
+          <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> TABLEAU
+          <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> MARKET DATA
+        </text>
+        <animateTransform attributeName="transform" type="translate" values="0 0; -900 0" dur="18s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="55" rx="10" fill="none" stroke="#1c2531"/>
+</svg>
