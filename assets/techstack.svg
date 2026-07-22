@@ -1,201 +1,498 @@
-<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="orbitBg" cx="50%" cy="45%" r="75%">
-      <stop offset="0%" stop-color="#111726"/>
-      <stop offset="100%" stop-color="#0a0e14"/>
-    </radialGradient>
-    <clipPath id="orbitFrame">
-      <rect x="0" y="0" width="1200" height="620" rx="18"/>
-    </clipPath>
-  </defs>
+<svg width="1040" height="620" viewBox="0 0 1040 620" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="blur" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+</defs>
 
-  <g clip-path="url(#orbitFrame)">
-    <rect width="1200" height="620" fill="url(#orbitBg)"/>
+<text x="30" y="42" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="22" font-weight="500" fill="#f2f4f7">Skills &#8212; live tech stack</text>
+<text x="30" y="64" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13" fill="#8a93a3">floating glass, tuned to each tool&#8217;s real brand color</text>
 
-    <text x="40" y="40" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#7d8894">LIVE SKILL ORBIT</text>
 
-    <!-- static guide rings -->
-    <g fill="none" stroke-dasharray="2 5">
-      <circle cx="600" cy="300" r="90" stroke="#8b7cf6" stroke-opacity="0.15"/>
-      <circle cx="600" cy="300" r="150" stroke="#2ee6a6" stroke-opacity="0.15"/>
-      <circle cx="600" cy="300" r="205" stroke="#ffd166" stroke-opacity="0.15"/>
-      <circle cx="600" cy="300" r="260" stroke="#ff7ac6" stroke-opacity="0.15"/>
-    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="0.0s" repeatCount="indefinite" additive="sum"/>
 
-    <!-- center hub -->
-    <g transform="translate(600,300)" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
-      <circle r="44" fill="none" stroke="#4fd1ff" stroke-opacity="0.35">
-        <animate attributeName="r" values="40;56;40" dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="stroke-opacity" values="0.4;0.05;0.4" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="34" fill="#10161f" stroke="#4fd1ff" stroke-width="1.5"/>
-      <text text-anchor="middle" y="-2" font-size="14" font-weight="700" fill="#e6edf3">SIVA</text>
-      <text text-anchor="middle" y="14" font-size="9" letter-spacing="2" fill="#7d8894">CORE</text>
-    </g>
+      <ellipse cx="104.0" cy="156.0" rx="58" ry="46" fill="#3776AB" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="118.0" cy="146.0" rx="46" ry="34" fill="#FFD43B" opacity="0.22" filter="url(#blur)"/>
 
-    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+      <rect x="30" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="30" y="92" width="148" height="148" rx="26" fill="none" stroke="#3776AB" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="31.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
 
-      <!-- ===== Languages ring (r=90, 18s) ===== -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" values="0 600 300;360 600 300" dur="18s" repeatCount="indefinite"/>
-        <line x1="600" y1="300" x2="600" y2="210" stroke="#8b7cf6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="677.9" y2="345" stroke="#8b7cf6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="522.1" y2="345" stroke="#8b7cf6" stroke-opacity="0.25"/>
-
-        <g transform="translate(600,210)">
-          <circle r="6" fill="#8b7cf6"/>
-          <circle r="8" fill="#8b7cf6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.2s" repeatCount="indefinite"/></circle>
-          <g transform="translate(0,0)">
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="18s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#8b7cf6">PYTH</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">Python</text>
-          </g>
-        </g>
-
-        <g transform="translate(677.9,345)">
-          <circle r="6" fill="#8b7cf6"/>
-          <circle r="8" fill="#8b7cf6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.2s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.2s" begin="0.3s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="18s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#8b7cf6">SQL</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">SQL / Querying</text>
-          </g>
-        </g>
-
-        <g transform="translate(522.1,345)">
-          <circle r="6" fill="#8b7cf6"/>
-          <circle r="8" fill="#8b7cf6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.2s" begin="0.6s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="18s" repeatCount="indefinite" additive="sum"/>
-            <text x="-30" y="2" font-size="11" font-weight="700" fill="#8b7cf6">R</text>
-            <text x="-30" y="14" font-size="8" fill="#7d8894">R</text>
-          </g>
-        </g>
+      <clipPath id="clip0"><rect x="30" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip0)">
+        <rect x="-110" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 30 92)">
+          <animate attributeName="x" values="-110;318" dur="5.5s" begin="1.2s" repeatCount="indefinite"/>
+        </rect>
       </g>
 
-      <!-- ===== Data & Analysis ring (r=150, 26s) ===== -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" values="0 600 300;360 600 300" dur="26s" repeatCount="indefinite"/>
-        <line x1="600" y1="300" x2="706.1" y2="193.9" stroke="#2ee6a6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="706.1" y2="406.1" stroke="#2ee6a6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="493.9" y2="406.1" stroke="#2ee6a6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="493.9" y2="193.9" stroke="#2ee6a6" stroke-opacity="0.25"/>
-
-        <g transform="translate(706.1,193.9)">
-          <circle r="6" fill="#2ee6a6"/>
-          <circle r="8" fill="#2ee6a6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="26s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#2ee6a6">PNDS</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">Pandas</text>
-          </g>
-        </g>
-
-        <g transform="translate(706.1,406.1)">
-          <circle r="6" fill="#2ee6a6"/>
-          <circle r="8" fill="#2ee6a6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.4s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="26s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#2ee6a6">NPY</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">NumPy</text>
-          </g>
-        </g>
-
-        <g transform="translate(493.9,406.1)">
-          <circle r="6" fill="#2ee6a6"/>
-          <circle r="8" fill="#2ee6a6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.4s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="26s" repeatCount="indefinite" additive="sum"/>
-            <text x="-58" y="2" font-size="11" font-weight="700" fill="#2ee6a6">SKLN</text>
-            <text x="-58" y="14" font-size="8" fill="#7d8894">scikit-learn</text>
-          </g>
-        </g>
-
-        <g transform="translate(493.9,193.9)">
-          <circle r="6" fill="#2ee6a6"/>
-          <circle r="8" fill="#2ee6a6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="26s" repeatCount="indefinite" additive="sum"/>
-            <text x="-52" y="2" font-size="11" font-weight="700" fill="#2ee6a6">STAT</text>
-            <text x="-52" y="14" font-size="8" fill="#7d8894">Statistics</text>
-          </g>
-        </g>
+      <g transform="translate(104.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/python/3776AB" x="-22" y="-30" width="44" height="44"/>
       </g>
 
-      <!-- ===== Visualization ring (r=205, 34s) ===== -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" values="0 600 300;360 600 300" dur="34s" repeatCount="indefinite"/>
-        <line x1="600" y1="300" x2="731.8" y2="143.0" stroke="#ffd166" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="670.1" y2="492.7" stroke="#ffd166" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="398.1" y2="264.3" stroke="#ffd166" stroke-opacity="0.25"/>
-
-        <g transform="translate(731.8,143.0)">
-          <circle r="6" fill="#ffd166"/>
-          <circle r="8" fill="#ffd166" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="34s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#ffd166">XLS</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">Excel</text>
-          </g>
-        </g>
-
-        <g transform="translate(670.1,492.7)">
-          <circle r="6" fill="#ffd166"/>
-          <circle r="8" fill="#ffd166" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.6s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="34s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#ffd166">PBI</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">Power BI</text>
-          </g>
-        </g>
-
-        <g transform="translate(398.1,264.3)">
-          <circle r="6" fill="#ffd166"/>
-          <circle r="8" fill="#ffd166" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.6s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="1s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="34s" repeatCount="indefinite" additive="sum"/>
-            <text x="-58" y="2" font-size="11" font-weight="700" fill="#ffd166">TBLU</text>
-            <text x="-58" y="14" font-size="8" fill="#7d8894">Tableau</text>
-          </g>
-        </g>
-      </g>
-
-      <!-- ===== Finance ring (r=260, 42s) ===== -->
-      <g>
-        <animateTransform attributeName="transform" type="rotate" values="0 600 300;360 600 300" dur="42s" repeatCount="indefinite"/>
-        <line x1="600" y1="300" x2="860" y2="300" stroke="#ff7ac6" stroke-opacity="0.25"/>
-        <line x1="600" y1="300" x2="340" y2="300" stroke="#ff7ac6" stroke-opacity="0.25"/>
-
-        <g transform="translate(860,300)">
-          <circle r="6" fill="#ff7ac6"/>
-          <circle r="8" fill="#ff7ac6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="42s" repeatCount="indefinite" additive="sum"/>
-            <text x="12" y="2" font-size="11" font-weight="700" fill="#ff7ac6">YFAPI</text>
-            <text x="12" y="14" font-size="8" fill="#7d8894">Yahoo Finance API</text>
-          </g>
-        </g>
-
-        <g transform="translate(340,300)">
-          <circle r="6" fill="#ff7ac6"/>
-          <circle r="8" fill="#ff7ac6" opacity="0.3"><animate attributeName="r" values="8;14;8" dur="2.8s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.8s" begin="0.6s" repeatCount="indefinite"/></circle>
-          <g>
-            <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="42s" repeatCount="indefinite" additive="sum"/>
-            <text x="-76" y="2" font-size="11" font-weight="700" fill="#ff7ac6">XLFM</text>
-            <text x="-76" y="14" font-size="8" fill="#7d8894">Financial Modeling</text>
-          </g>
-        </g>
-      </g>
+      <text x="104.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#3776AB" opacity="0.95">Python</text>
     </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="0.35s" repeatCount="indefinite" additive="sum"/>
 
-    <!-- legend -->
-    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" fill="#7d8894">
-      <circle cx="380" cy="585" r="5" fill="#8b7cf6"/><text x="392" y="589">Languages</text>
-      <circle cx="500" cy="585" r="5" fill="#2ee6a6"/><text x="512" y="589">Data &amp; Analysis</text>
-      <circle cx="660" cy="585" r="5" fill="#ffd166"/><text x="672" y="589">Visualization</text>
-      <circle cx="800" cy="585" r="5" fill="#ff7ac6"/><text x="812" y="589">Finance &amp; Market Data</text>
+      <ellipse cx="270.0" cy="156.0" rx="58" ry="46" fill="#9B7CF6" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="196" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="196" y="92" width="148" height="148" rx="26" fill="none" stroke="#9B7CF6" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="197.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip1"><rect x="196" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip1)">
+        <rect x="56" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 196 92)">
+          <animate attributeName="x" values="56;484" dur="5.5s" begin="1.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(270.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="0.35s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/mysql/9B7CF6" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="270.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#9B7CF6" opacity="0.95">SQL</text>
     </g>
-  </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="0.7s" repeatCount="indefinite" additive="sum"/>
 
-  <rect x="0.5" y="0.5" width="1199" height="619" rx="18" fill="none" stroke="#1c2531" stroke-width="1"/>
+      <ellipse cx="436.0" cy="156.0" rx="58" ry="46" fill="#F2C811" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="362" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="362" y="92" width="148" height="148" rx="26" fill="none" stroke="#F2C811" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="363.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip2"><rect x="362" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip2)">
+        <rect x="222" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 362 92)">
+          <animate attributeName="x" values="222;650" dur="5.5s" begin="2.6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(436.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="0.7s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/powerbi/F2C811" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="436.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#F2C811" opacity="0.95">Power BI</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="1.05s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="602.0" cy="156.0" rx="58" ry="46" fill="#21A366" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="528" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="528" y="92" width="148" height="148" rx="26" fill="none" stroke="#21A366" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="529.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip3"><rect x="528" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip3)">
+        <rect x="388" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 528 92)">
+          <animate attributeName="x" values="388;816" dur="5.5s" begin="3.3s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(602.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="1.05s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/microsoftexcel/21A366" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="602.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#21A366" opacity="0.95">Excel</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="1.4s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="768.0" cy="156.0" rx="58" ry="46" fill="#F05033" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="694" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="694" y="92" width="148" height="148" rx="26" fill="none" stroke="#F05033" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="695.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip4"><rect x="694" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip4)">
+        <rect x="554" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 694 92)">
+          <animate attributeName="x" values="554;982" dur="5.5s" begin="4.0s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(768.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="1.4s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/git/F05033" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="768.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#F05033" opacity="0.95">Git</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="0.0s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="934.0" cy="156.0" rx="58" ry="46" fill="#E6E8EB" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="860" y="92" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="860" y="92" width="148" height="148" rx="26" fill="none" stroke="#E6E8EB" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="861.5" y="93.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip5"><rect x="860" y="92" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip5)">
+        <rect x="720" y="72" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 860 92)">
+          <animate attributeName="x" values="720;1148" dur="5.5s" begin="4.7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(934.0,156.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="0.0s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/github/E6E8EB" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="934.0" y="224" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#E6E8EB" opacity="0.95">GitHub</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="0.35s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="104.0" cy="330.0" rx="58" ry="46" fill="#3B82C4" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="30" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="30" y="266" width="148" height="148" rx="26" fill="none" stroke="#3B82C4" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="31.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip6"><rect x="30" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip6)">
+        <rect x="-110" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 30 266)">
+          <animate attributeName="x" values="-110;318" dur="5.5s" begin="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(104.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="0.35s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/visualstudiocode/3B82C4" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="104.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#3B82C4" opacity="0.95">VS Code</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="0.7s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="270.0" cy="330.0" rx="58" ry="46" fill="#9463F7" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="196" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="196" y="266" width="148" height="148" rx="26" fill="none" stroke="#9463F7" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="197.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip7"><rect x="196" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip7)">
+        <rect x="56" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 196 266)">
+          <animate attributeName="x" values="56;484" dur="5.5s" begin="1.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(270.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="0.7s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/pandas/9463F7" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="270.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#9463F7" opacity="0.95">Pandas</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="1.05s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="436.0" cy="330.0" rx="58" ry="46" fill="#4DABCF" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="362" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="362" y="266" width="148" height="148" rx="26" fill="none" stroke="#4DABCF" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="363.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip8"><rect x="362" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip8)">
+        <rect x="222" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 362 266)">
+          <animate attributeName="x" values="222;650" dur="5.5s" begin="2.6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(436.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="1.05s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/numpy/4DABCF" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="436.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#4DABCF" opacity="0.95">NumPy</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="1.4s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="602.0" cy="330.0" rx="58" ry="46" fill="#F0A33C" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="528" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="528" y="266" width="148" height="148" rx="26" fill="none" stroke="#F0A33C" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="529.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip9"><rect x="528" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip9)">
+        <rect x="388" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 528 266)">
+          <animate attributeName="x" values="388;816" dur="5.5s" begin="3.3s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(602.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="1.4s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/matplotlib/F0A33C" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="602.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#F0A33C" opacity="0.95">Matplotlib</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="0.0s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="768.0" cy="330.0" rx="58" ry="46" fill="#FF6D5A" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="694" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="694" y="266" width="148" height="148" rx="26" fill="none" stroke="#FF6D5A" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="695.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip10"><rect x="694" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip10)">
+        <rect x="554" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 694 266)">
+          <animate attributeName="x" values="554;982" dur="5.5s" begin="4.0s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(768.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="0.0s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/n8n/FF6D5A" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="768.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#FF6D5A" opacity="0.95">n8n</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="0.35s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="934.0" cy="330.0" rx="58" ry="46" fill="#2EAD33" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="860" y="266" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="860" y="266" width="148" height="148" rx="26" fill="none" stroke="#2EAD33" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="861.5" y="267.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip11"><rect x="860" y="266" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip11)">
+        <rect x="720" y="246" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 860 266)">
+          <animate attributeName="x" values="720;1148" dur="5.5s" begin="4.7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(934.0,330.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="0.35s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/playwright/2EAD33" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="934.0" y="398" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#2EAD33" opacity="0.95">Playwright</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="0.7s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="104.0" cy="504.0" rx="58" ry="46" fill="#43B02A" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="30" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="30" y="440" width="148" height="148" rx="26" fill="none" stroke="#43B02A" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="31.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip12"><rect x="30" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip12)">
+        <rect x="-110" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 30 440)">
+          <animate attributeName="x" values="-110;318" dur="5.5s" begin="1.2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(104.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="0.7s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/selenium/43B02A" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="104.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#43B02A" opacity="0.95">Selenium</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="1.05s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="270.0" cy="504.0" rx="58" ry="46" fill="#E34F26" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="196" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="196" y="440" width="148" height="148" rx="26" fill="none" stroke="#E34F26" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="197.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip13"><rect x="196" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip13)">
+        <rect x="56" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 196 440)">
+          <animate attributeName="x" values="56;484" dur="5.5s" begin="1.9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(270.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="1.05s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/html5/E34F26" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="270.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#E34F26" opacity="0.95">HTML</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="1.4s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="436.0" cy="504.0" rx="58" ry="46" fill="#1572B6" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="362" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="362" y="440" width="148" height="148" rx="26" fill="none" stroke="#1572B6" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="363.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip14"><rect x="362" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip14)">
+        <rect x="222" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 362 440)">
+          <animate attributeName="x" values="222;650" dur="5.5s" begin="2.6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(436.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="1.4s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/css3/1572B6" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="436.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#1572B6" opacity="0.95">CSS</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="3.6s" begin="0.0s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="602.0" cy="504.0" rx="58" ry="46" fill="#F7DF1E" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="1.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="528" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="528" y="440" width="148" height="148" rx="26" fill="none" stroke="#F7DF1E" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="529.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip15"><rect x="528" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip15)">
+        <rect x="388" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 528 440)">
+          <animate attributeName="x" values="388;816" dur="5.5s" begin="3.3s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(602.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="3.6s" begin="0.0s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/javascript/F7DF1E" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="602.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#F7DF1E" opacity="0.95">JavaScript</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.0s" begin="0.35s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="768.0" cy="504.0" rx="58" ry="46" fill="#2496ED" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="694" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="694" y="440" width="148" height="148" rx="26" fill="none" stroke="#2496ED" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="695.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip16"><rect x="694" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip16)">
+        <rect x="554" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 694 440)">
+          <animate attributeName="x" values="554;982" dur="5.5s" begin="4.0s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(768.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.0s" begin="0.35s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/docker/2496ED" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="768.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#2496ED" opacity="0.95">Docker</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 0,-7; 0,0" keyTimes="0;0.5;1" dur="4.4s" begin="0.7s" repeatCount="indefinite" additive="sum"/>
+
+      <ellipse cx="934.0" cy="504.0" rx="58" ry="46" fill="#FCC624" opacity="0.28" filter="url(#blur)">
+        <animate attributeName="opacity" values="0.18;0.36;0.18" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+      </ellipse>
+      
+
+      <rect x="860" y="440" width="148" height="148" rx="26" fill="#ffffff" opacity="0.07"/>
+      <rect x="860" y="440" width="148" height="148" rx="26" fill="none" stroke="#FCC624" stroke-opacity="0.55" stroke-width="1"/>
+      <rect x="861.5" y="441.5" width="145" height="145" rx="24.5" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+
+      <clipPath id="clip17"><rect x="860" y="440" width="148" height="148" rx="26"/></clipPath>
+      <g clip-path="url(#clip17)">
+        <rect x="720" y="420" width="70" height="188" fill="#ffffff" opacity="0.06" transform="rotate(20 860 440)">
+          <animate attributeName="x" values="720;1148" dur="5.5s" begin="4.7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g transform="translate(934.0,504.0)">
+        <animateTransform attributeName="transform" type="scale" values="1;1.06;1" dur="4.4s" begin="0.7s" repeatCount="indefinite"/>
+        <image href="https://cdn.simpleicons.org/linux/FCC624" x="-22" y="-30" width="44" height="44"/>
+      </g>
+
+      <text x="934.0" y="572" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#FCC624" opacity="0.95">Linux</text>
+    </g>
 </svg>
