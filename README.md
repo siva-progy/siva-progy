@@ -37,29 +37,7 @@
 
 > Everything below is what I'm learning or have touched so far — trim this down to what's actually true for you as you go.
 
-**Languages & Querying**
-
-<img src="https://img.shields.io/badge/Python-10161F?style=flat-square&logo=python&logoColor=2EE6A6"/>
-<img src="https://img.shields.io/badge/SQL-10161F?style=flat-square&logo=postgresql&logoColor=4FD1FF"/>
-<img src="https://img.shields.io/badge/R-10161F?style=flat-square&logo=r&logoColor=2EE6A6"/>
-
-**Data & Analysis**
-
-<img src="https://img.shields.io/badge/Pandas-10161F?style=flat-square&logo=pandas&logoColor=2EE6A6"/>
-<img src="https://img.shields.io/badge/NumPy-10161F?style=flat-square&logo=numpy&logoColor=4FD1FF"/>
-<img src="https://img.shields.io/badge/scikit--learn-10161F?style=flat-square&logo=scikitlearn&logoColor=2EE6A6"/>
-<img src="https://img.shields.io/badge/Statistics-10161F?style=flat-square&logo=googleanalytics&logoColor=4FD1FF"/>
-
-**Visualization & Reporting**
-
-<img src="https://img.shields.io/badge/Excel-10161F?style=flat-square&color=10161F"/>
-<img src="https://img.shields.io/badge/Power%20BI-10161F?style=flat-square&color=10161F"/>
-<img src="https://img.shields.io/badge/Tableau-10161F?style=flat-square&color=10161F"/>
-
-**Finance & Market Data**
-
-<img src="https://img.shields.io/badge/Yahoo%20Finance%20API-10161F?style=flat-square&color=10161F"/>
-<img src="https://img.shields.io/badge/Excel%20Financial%20Modeling-10161F?style=flat-square&color=10161F"/>
+<img src="assets/techstack.svg" alt="tech stack" width="100%" />
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
