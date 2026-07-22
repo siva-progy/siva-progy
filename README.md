@@ -36,8 +36,9 @@
 
 > Everything below is what I'm learning or have touched so far — trim this down to what's actually true for you as you go.
 
-<img src="assets/techstack.svg" alt="tech stack" width="100%" />
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/siva-progy/siva-progy/main/assets/siva-floating-glass.svg" width="100%" alt="Skills — live tech stack" />
+</p>
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
 ### `$ ls featured-projects/`
