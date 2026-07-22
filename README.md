@@ -33,7 +33,6 @@
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
-### `$ cat tech-stack.txt`
 
 > Everything below is what I'm learning or have touched so far — trim this down to what's actually true for you as you go.
 
