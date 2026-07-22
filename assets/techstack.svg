@@ -1,5 +1,158 @@
-### `$ cat tech-stack.txt`
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stackBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0d1420"/>
+    </linearGradient>
+    <clipPath id="stackFrame">
+      <rect x="0" y="0" width="1200" height="520" rx="14"/>
+    </clipPath>
+  </defs>
 
-> Everything below is what I'm learning or have touched so far — trim this down to what's actually true for you as you go.
+  <g clip-path="url(#stackFrame)">
+    <rect width="1200" height="520" fill="url(#stackBg)"/>
 
-<img src="assets/techstack.svg" alt="tech stack" width="100%" />
+    <rect x="0" y="0" width="1200" height="46" fill="#10161f"/>
+    <line x1="0" y1="46" x2="1200" y2="46" stroke="#1c2531" stroke-width="1"/>
+    <circle cx="26" cy="23" r="6" fill="#ff5c73"/>
+    <circle cx="48" cy="23" r="6" fill="#ffd166"/>
+    <circle cx="70" cy="23" r="6" fill="#2ee6a6"/>
+    <text x="96" y="28" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14" fill="#7d8894">siva-progy — ~/portfolio/holdings — zsh</text>
+
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+
+      <!-- ===== Row 0 ===== -->
+      <!-- Python -->
+      <g transform="translate(40,70)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#4fd1ff" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#4fd1ff">PYTH</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">LANG</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Python</text>
+        <polyline points="18,92 55,88 92,90 129,78 166,80 203,64 240,66" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- SQL -->
+      <g transform="translate(325,70)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#4fd1ff" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#4fd1ff">SQL</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">LANG</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">SQL / Querying</text>
+        <polyline points="18,90 55,86 92,88 129,72 166,76 203,60 240,62" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- R -->
+      <g transform="translate(610,70)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#4fd1ff" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#4fd1ff">R</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">LANG</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">R</text>
+        <polyline points="18,94 55,92 92,90 129,86 166,84 203,74 240,76" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- Pandas -->
+      <g transform="translate(895,70)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#2ee6a6" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#2ee6a6">PNDS</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">DATA</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Pandas</text>
+        <polyline points="18,90 55,84 92,86 129,70 166,72 203,58 240,60" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- ===== Row 1 ===== -->
+      <!-- NumPy -->
+      <g transform="translate(40,200)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#2ee6a6" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#2ee6a6">NPY</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">DATA</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">NumPy</text>
+        <polyline points="18,92 55,90 92,84 129,86 166,74 203,76 240,64" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- scikit-learn -->
+      <g transform="translate(325,200)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#2ee6a6" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#2ee6a6">SKLN</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">DATA</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">scikit-learn</text>
+        <polyline points="18,96 55,92 92,94 129,88 166,90 203,80 240,82" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- Statistics -->
+      <g transform="translate(610,200)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#2ee6a6" stroke-opacity="0.35"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#2ee6a6">STAT</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">DATA</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Statistics</text>
+        <polyline points="18,90 55,86 92,88 129,74 166,78 203,62 240,66" fill="none" stroke="#2ee6a6" stroke-width="2"/>
+      </g>
+
+      <!-- Excel -->
+      <g transform="translate(895,200)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#ffd166" stroke-opacity="0.4"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#ffd166">XLS</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">VIZ</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Excel</text>
+        <polyline points="18,88 55,90 92,80 129,84 166,70 203,74 240,58" fill="none" stroke="#ffd166" stroke-width="2"/>
+      </g>
+
+      <!-- ===== Row 2 ===== -->
+      <!-- Power BI -->
+      <g transform="translate(40,330)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#ffd166" stroke-opacity="0.4"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#ffd166">PBI</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">VIZ</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Power BI</text>
+        <polyline points="18,94 55,90 92,92 129,82 166,86 203,72 240,76" fill="none" stroke="#ffd166" stroke-width="2"/>
+      </g>
+
+      <!-- Tableau -->
+      <g transform="translate(325,330)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#ffd166" stroke-opacity="0.4"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#ffd166">TBLU</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">VIZ</text>
+        <text x="18" y="58" font-size="13" fill="#c7cfd8">Tableau</text>
+        <polyline points="18,92 55,88 92,90 129,80 166,82 203,68 240,70" fill="none" stroke="#ffd166" stroke-width="2"/>
+      </g>
+
+      <!-- Yahoo Finance API -->
+      <g transform="translate(610,330)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#ff5c73" stroke-opacity="0.4"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#ff5c73">YFAPI</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">FIN</text>
+        <text x="18" y="58" font-size="12.5" fill="#c7cfd8">Yahoo Finance API</text>
+        <polyline points="18,90 55,86 92,88 129,76 166,80 203,64 240,68" fill="none" stroke="#ff5c73" stroke-width="2"/>
+      </g>
+
+      <!-- Excel Financial Modeling -->
+      <g transform="translate(895,330)">
+        <rect width="265" height="110" rx="10" fill="#10161f" stroke="#ff5c73" stroke-opacity="0.4"/>
+        <text x="18" y="34" font-size="22" font-weight="700" fill="#ff5c73">XLFM</text>
+        <rect x="195" y="16" width="52" height="18" rx="9" fill="#1c2531"/>
+        <text x="221" y="29" font-size="9" fill="#7d8894" text-anchor="middle">FIN</text>
+        <text x="18" y="58" font-size="12.5" fill="#c7cfd8">Financial Modeling</text>
+        <polyline points="18,92 55,90 92,84 129,86 166,74 203,76 240,62" fill="none" stroke="#ff5c73" stroke-width="2"/>
+      </g>
+
+      <!-- legend -->
+      <g font-size="12" fill="#7d8894">
+        <circle cx="330" cy="490" r="5" fill="#4fd1ff"/><text x="342" y="494">Languages</text>
+        <circle cx="450" cy="490" r="5" fill="#2ee6a6"/><text x="462" y="494">Data &amp; Analysis</text>
+        <circle cx="610" cy="490" r="5" fill="#ffd166"/><text x="622" y="494">Visualization</text>
+        <circle cx="750" cy="490" r="5" fill="#ff5c73"/><text x="762" y="494">Finance &amp; Market Data</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="519" rx="14" fill="none" stroke="#1c2531" stroke-width="1"/>
+</svg>
