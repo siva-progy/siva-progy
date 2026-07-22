@@ -106,6 +106,8 @@ A simple backtesting tool to test a basic trading rule (e.g. moving average cros
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
+Contribution graph
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/siva-progy/siva-progy/output/snake.svg" alt="contribution snake" width="100%"/>
 </div>
