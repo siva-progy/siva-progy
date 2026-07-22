@@ -52,14 +52,14 @@
 
 **Visualization & Reporting**
 
-<img src="https://img.shields.io/badge/Excel-10161F?style=flat-square"/>
-<img src="https://img.shields.io/badge/Power%20BI-10161F?style=flat-square"/>
-<img src="https://img.shields.io/badge/Tableau-10161F?style=flat-square"/>
+<img src="https://img.shields.io/badge/Excel-10161F?style=flat-square&color=10161F"/>
+<img src="https://img.shields.io/badge/Power%20BI-10161F?style=flat-square&color=10161F"/>
+<img src="https://img.shields.io/badge/Tableau-10161F?style=flat-square&color=10161F"/>
 
 **Finance & Market Data**
 
-<img src="https://img.shields.io/badge/Yahoo%20Finance%20API-10161F?style=flat-square"/>
-<img src="https://img.shields.io/badge/Excel%20Financial%20Modeling-10161F?style=flat-square"/>
+<img src="https://img.shields.io/badge/Yahoo%20Finance%20API-10161F?style=flat-square&color=10161F"/>
+<img src="https://img.shields.io/badge/Excel%20Financial%20Modeling-10161F?style=flat-square&color=10161F"/>
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
 
