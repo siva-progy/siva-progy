@@ -58,7 +58,7 @@
       <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
     </text>
     <text x="470" y="172" font-family="'JetBrains Mono',monospace" font-size="17" fill="#4fd1ff">
-      fresher &#8226; data &amp; analytics &#8226; curious about markets
+      Fresher &#8226; Data &amp; Analytics &#8226; Curious about Markets
       <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.3s" fill="freeze"/>
     </text>
     <text x="470" y="202" font-family="'JetBrains Mono',monospace" font-size="14" fill="#7d8894">
