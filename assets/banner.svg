@@ -32,7 +32,6 @@
     <circle cx="26" cy="23" r="6" fill="#ff5c73"/>
     <circle cx="48" cy="23" r="6" fill="#ffd166"/>
     <circle cx="70" cy="23" r="6" fill="#2ee6a6"/>
-    <text x="96" y="28" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="14" fill="#7d8894">siva-progy — ~/market-data — zsh</text>
 
     <g font-family="'JetBrains Mono',monospace">
       <g stroke="#3a4552" stroke-width="2">
