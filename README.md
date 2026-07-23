@@ -12,19 +12,7 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/siva-suburamaniyam">
-  <img src="assets/linkedin_1.svg" alt="LinkedIn"/>
-</a>
-<a href="mailto:sivav6064@gmail.com">
-  <img src="assets/email_2.svg" alt="Email"/>
-</a>
-<a href="https://siva-v.netlify.app/">
-  <img src="assets/portfolio_1.svg" alt="Portfolio"/>
-</a>
-<a href="https://github.com/siva-progy">
-  <img src="assets/github.svg" alt="GitHub"/>
-</a>
-
+<img src="assets/fin4_forex_flow.svg" alt="Profile_Flow" width="100%" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="divider"/>
