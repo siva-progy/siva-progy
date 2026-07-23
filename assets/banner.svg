@@ -61,11 +61,7 @@
       Fresher &#8226; Data &amp; Analytics &#8226; Curious about Markets
       <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.3s" fill="freeze"/>
     </text>
-    <text x="470" y="202" font-family="'JetBrains Mono',monospace" font-size="14" fill="#7d8894">
-      $ status --&gt; learning in public, building in public
-      <animate attributeName="opacity" values="0;1" dur="1.6s" begin="0.6s" fill="freeze"/>
-    </text>
-
+    
     <rect x="-200" y="0" width="200" height="300" fill="url(#scanGrad)">
       <animateTransform attributeName="transform" type="translate" values="0 0; 1400 0" dur="5s" repeatCount="indefinite"/>
     </rect>
