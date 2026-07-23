@@ -20,7 +20,7 @@
           <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> TABLEAU
           <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> MARKET DATA
         </text>
-        <text x="900" y="34" fill="#e6edf3">
+        <text x="1150" y="34" fill="#e6edf3">
           <tspan fill="#2ee6a6">&#9650;</tspan> PYTHON
           <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> SQL
           <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> PANDAS
@@ -32,7 +32,7 @@
           <tspan dx="24" fill="#4fd1ff">&#9654;</tspan> TABLEAU
           <tspan dx="24" fill="#2ee6a6">&#9650;</tspan> MARKET DATA
         </text>
-        <animateTransform attributeName="transform" type="translate" values="0 0; -900 0" dur="18s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0; -1150 0" dur="23s" repeatCount="indefinite"/>
       </g>
     </g>
   </g>
