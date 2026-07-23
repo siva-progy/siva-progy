@@ -13,16 +13,16 @@
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/siva-suburamaniyam">
-  <img src="https://img.shields.io/badge/LinkedIn-10161F?style=for-the-badge&logo=linkedin&logoColor=4FD1FF" alt="LinkedIn"/>
+  <img src="assets/linkedin.svg" alt="LinkedIn"/>
 </a>
 <a href="mailto:sivav6064@gmail.com">
-  <img src="https://img.shields.io/badge/Email-10161F?style=for-the-badge&logo=gmail&logoColor=FF5C73" alt="Email"/>
+  <img src="assets/email.svg" alt="Email"/>
 </a>
 <a href="https://siva-v.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-10161F?style=for-the-badge&logo=vercel&logoColor=2EE6A6" alt="Portfolio"/>
+  <img src="assets/portfolio.svg" alt="Portfolio"/>
 </a>
 <a href="https://github.com/siva-progy">
-  <img src="https://img.shields.io/badge/GitHub-10161F?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub"/>
+  <img src="assets/github.svg" alt="GitHub"/>
 </a>
 
 </div>
