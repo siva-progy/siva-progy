@@ -1,0 +1,24 @@
+<svg width="190" height="56" viewBox="0 0 190 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2">
+        <animate attributeName="stop-color" values="#0A66C2;#4DA6FF;#0A66C2" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#4DA6FF">
+        <animate attributeName="stop-color" values="#4DA6FF;#0A66C2;#4DA6FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur result="b">
+        <animate attributeName="stdDeviation" values="2;5;2" dur="2.4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="186" height="52" rx="26" fill="url(#lg)" filter="url(#glow1)"/>
+  <circle cx="30" cy="28" r="15" fill="rgba(255,255,255,0.18)">
+    <animate attributeName="r" values="14;16;14" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="30" y="34" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="16" fill="#ffffff">in</text>
+  <text x="54" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-size="17" font-weight="600" fill="#ffffff">LinkedIn</text>
+</svg>

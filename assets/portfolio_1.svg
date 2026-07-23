@@ -1,0 +1,28 @@
+<svg width="195" height="56" viewBox="0 0 195 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8E2DE2">
+        <animate attributeName="stop-color" values="#8E2DE2;#FF6EC7;#8E2DE2" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF6EC7">
+        <animate attributeName="stop-color" values="#FF6EC7;#8E2DE2;#FF6EC7" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow3" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur result="b">
+        <animate attributeName="stdDeviation" values="2;5;2" dur="2.4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="191" height="52" rx="26" fill="url(#pg)" filter="url(#glow3)"/>
+  <circle cx="30" cy="28" r="15" fill="rgba(255,255,255,0.18)">
+    <animate attributeName="r" values="14;16;14" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="28" r="9" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <ellipse cx="30" cy="28" rx="4" ry="9" fill="none" stroke="#ffffff" stroke-width="1.6">
+    <animateTransform attributeName="transform" type="rotate" values="0 30 28;360 30 28" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+  <line x1="21" y1="28" x2="39" y2="28" stroke="#ffffff" stroke-width="1.6"/>
+  <text x="54" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-size="17" font-weight="600" fill="#ffffff">Portfolio</text>
+</svg>

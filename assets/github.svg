@@ -1,0 +1,27 @@
+<svg width="185" height="56" viewBox="0 0 185 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#232526">
+        <animate attributeName="stop-color" values="#232526;#414345;#232526" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#414345">
+        <animate attributeName="stop-color" values="#414345;#232526;#414345" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur result="b">
+        <animate attributeName="stdDeviation" values="2;5;2" dur="2.4s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="181" height="52" rx="26" fill="url(#gg)" filter="url(#glow4)"/>
+  <circle cx="30" cy="28" r="15" fill="rgba(0,255,157,0.15)">
+    <animate attributeName="r" values="14;16;14" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="30" y="34" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-weight="700" font-size="15" fill="#00FF9D">
+    &lt;/&gt;
+    <animate attributeName="fill" values="#00FF9D;#4DFFC4;#00FF9D" dur="2.4s" repeatCount="indefinite"/>
+  </text>
+  <text x="54" y="34" font-family="'Poppins','Segoe UI',sans-serif" font-size="17" font-weight="600" fill="#ffffff">GitHub</text>
+</svg>
